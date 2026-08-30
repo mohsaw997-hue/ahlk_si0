@@ -14,7 +14,7 @@ import AdminRedirectListener from "./components/AdminRedirectListener";
 import BlockListener from "./components/BlockListener";
 
 // export const api_route = "http://localhost:8080";
-export const api_route = 'https://test-ser1-production.up.railway.app'
+export const api_route = 'https://ahlkse0-production.up.railway.app'
 export const socket = io(api_route);
 
 export function getKeysWithTrueValue(obj) {
